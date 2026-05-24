@@ -9,7 +9,7 @@ function Home() {
   const getProfiles = async () => {
     try {
       const res = await axios.get(
-        "http://localhost:5000/api/profiles"
+        "https://client-project-9ofp.onrender.com/api/profiles"
       );
 
       setProfiles(res.data);

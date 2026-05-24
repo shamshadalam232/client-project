@@ -24,7 +24,7 @@ function BookingModal({
       try {
 
         await axios.post(
-          "http://localhost:5000/api/bookings",
+          "https://client-project-9ofp.onrender.com/api/bookings",
 
           {
             ...formData,

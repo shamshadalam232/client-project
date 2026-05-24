@@ -25,7 +25,7 @@ function Admin() {
     try {
 
       const res = await axios.get(
-        "http://localhost:5000/api/profiles"
+        "https://client-project-9ofp.onrender.com/api/profiles"
       );
 
       setProfiles(res.data);
@@ -74,7 +74,7 @@ function Admin() {
       if (editId) {
 
         await axios.put(
-          `http://localhost:5000/api/profiles/${editId}`,
+          `https://client-project-9ofp.onrender.com/api/profiles/${editId}`,
 
           data,
 
@@ -97,7 +97,7 @@ function Admin() {
       else {
 
         await axios.post(
-          "http://localhost:5000/api/profiles",
+          "https://client-project-9ofp.onrender.com/api/profiles",
 
           data,
 
@@ -148,7 +148,7 @@ function Admin() {
         localStorage.getItem("token");
 
       await axios.delete(
-        `http://localhost:5000/api/profiles/${id}`,
+        `https://client-project-9ofp.onrender.com/api/profiles/${id}`,
 
         {
           headers: {
@@ -194,7 +194,7 @@ toast.success(
       localStorage.getItem("token");
 
     const res = await axios.get(
-      "http://localhost:5000/api/bookings",
+      "https://client-project-9ofp.onrender.com/api/bookings",
 
       {
         headers: {
