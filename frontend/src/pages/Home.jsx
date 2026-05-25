@@ -57,7 +57,7 @@ function Home() {
             font-black
             "
           >
-            Premium Companions
+            Mumbai’s Most Exclusive Companions
           </h1>
 
           <p
@@ -70,7 +70,7 @@ function Home() {
             md:text-lg
             "
           >
-            Elegant. Private. Luxury Experience.
+            Private. Elegant. Premium Experience.
           </p>
 
         </div>
@@ -90,7 +90,7 @@ function Home() {
           mb-10
           "
         >
-          Choose Companion
+          Exclusive Profiles
         </h2>
 
         <div
