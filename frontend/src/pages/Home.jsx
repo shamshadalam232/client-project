@@ -1,27 +1,40 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 
+import FastMarquee from "react-fast-marquee";
+
 import Card from "../components/Card";
+import Footer from "../components/Footer";
 
 function Home() {
+
   const [profiles, setProfiles] = useState([]);
 
   const getProfiles = async () => {
+
     try {
+
       const res = await axios.get(
         "https://client-project-9ofp.onrender.com/api/profiles"
       );
 
       setProfiles(res.data);
+
     } catch (error) {
+
       console.log(error);
+
     }
   };
- useEffect(() => {
+
+  useEffect(() => {
+
     getProfiles();
+
   }, []);
 
   return (
+
     <div
       className="
       min-h-screen
@@ -40,6 +53,8 @@ function Home() {
         items-center
         justify-center
         px-5
+        relative
+        overflow-hidden
         "
         style={{
           backgroundImage:
@@ -47,7 +62,61 @@ function Home() {
         }}
       >
 
-        <div className="text-center">
+        {/* TOP MARQUEE */}
+
+       <div
+  className="
+  absolute
+  top-0
+  left-0
+  w-full
+  overflow-hidden
+  bg-black/60
+  py-3
+  z-20
+  "
+>
+
+  <div
+    className="
+    whitespace-nowrap
+    text-white
+    font-semibold
+    tracking-widest
+    animate-marquee
+    "
+  >
+
+    Premium Experience •
+    Easy Booking •
+    Luxury Companions •
+    Mumbai Service •
+    VIP Experience •
+    Premium Lifestyle •
+
+  </div>
+
+</div>
+
+        {/* OVERLAY */}
+
+        <div
+          className="
+          absolute
+          inset-0
+          bg-black/40
+          "
+        ></div>
+
+        {/* CONTENT */}
+
+        <div
+          className="
+          text-center
+          relative
+          z-10
+          "
+        >
 
           <h1
             className="
@@ -57,7 +126,8 @@ function Home() {
             font-black
             "
           >
-            Mumbai’s Most Exclusive Companions
+            Mumbai’s Most Exclusive
+            Companions
           </h1>
 
           <p
@@ -70,7 +140,8 @@ function Home() {
             md:text-lg
             "
           >
-            Private. Elegant. Premium Experience.
+            Private. Elegant.
+            Premium Experience.
           </p>
 
         </div>
@@ -103,12 +174,21 @@ function Home() {
           gap-8
           "
         >
+
           {profiles.map((item) => (
-            <Card key={item._id} item={item} />
+
+            <Card
+              key={item._id}
+              item={item}
+            />
+
           ))}
+
         </div>
 
       </div>
+
+      <Footer />
 
     </div>
   );
