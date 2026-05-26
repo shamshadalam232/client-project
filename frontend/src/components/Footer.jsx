@@ -273,12 +273,9 @@ export default function Footer() {
         </p>
 
         <p>
-          📞 +91 9999999999
+          📞 +91 9162259157
         </p>
 
-        <p>
-          ✉ support@gmail.com
-        </p>
 
         <p>
           ⏰ Available 24 Hours
