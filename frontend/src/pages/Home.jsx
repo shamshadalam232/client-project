@@ -87,12 +87,12 @@ function Home() {
     "
   >
 
-    Premium Experience •
-    Easy Booking •
-    Luxury Companions •
-    Mumbai Service •
-    VIP Experience •
-    Premium Lifestyle •
+     Professional Massage •
+  Relaxation Therapy •
+  Stress Relief •
+  Mumbai Service •
+  Home Visit Available •
+  Premium Wellness •
 
   </div>
 
@@ -126,8 +126,8 @@ function Home() {
             font-black
             "
           >
-            Mumbai’s Most Exclusive
-            Companions
+            Mumbai’s Premium
+  Massage Services
           </h1>
 
           <p
@@ -140,8 +140,9 @@ function Home() {
             md:text-lg
             "
           >
-            Private. Elegant.
-            Premium Experience.
+            Professional Massage.
+  Relaxing Experience.
+  Comfortable Environment.
           </p>
 
         </div>

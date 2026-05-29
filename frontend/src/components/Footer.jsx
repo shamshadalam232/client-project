@@ -36,7 +36,7 @@ export default function Footer() {
         font-black
         "
       >
-        Premium Companions
+        Premium Massage Services
       </h1>
 
       <p
@@ -47,13 +47,7 @@ export default function Footer() {
         text-sm
         "
       >
-        Discover premium companionship
-        services with complete privacy,
-        elegance and comfort. We focus
-        on delivering a luxurious and
-        memorable experience for every
-        client with trusted and
-        professional service.
+        Experience professional massage services designed to help you relax, reduce stress, and restore your energy. We provide a comfortable, private, and professional environment for your complete wellness.
       </p>
 
       <div className="flex gap-4 mt-6">
