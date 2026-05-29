@@ -31,6 +31,4 @@ app.use("/api/admin", adminRoutes);
 
 app.use("/api/profiles", profileRoutes);
 
-app.listen(process.env.PORT, () => {
-  console.log("Server Running");
-});
+export default app;
