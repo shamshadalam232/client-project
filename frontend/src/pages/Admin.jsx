@@ -74,7 +74,7 @@ function Admin() {
       if (editId) {
 
         await axios.put(
-          `https://client-project-9ofp.onrender.com/api/profiles/${editId}`,
+          `https://client-project-1d2g.vercel.app/api/profiles/${editId}`,
 
           data,
 
@@ -97,7 +97,7 @@ function Admin() {
       else {
 
         await axios.post(
-          "https://client-project-9ofp.onrender.com/api/profiles",
+          "https://client-project-1d2g.vercel.app/api/profiles",
 
           data,
 
@@ -148,7 +148,7 @@ function Admin() {
         localStorage.getItem("token");
 
       await axios.delete(
-        `https://client-project-9ofp.onrender.com/api/profiles/${id}`,
+        `https://client-project-1d2g.vercel.app/api/profiles/${id}`,
 
         {
           headers: {
@@ -194,7 +194,7 @@ toast.success(
       localStorage.getItem("token");
 
     const res = await axios.get(
-      "https://client-project-9ofp.onrender.com/api/bookings",
+      "https://client-project-1d2g.vercel.app/api/bookings",
 
       {
         headers: {

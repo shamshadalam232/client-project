@@ -15,7 +15,7 @@ function Home() {
     try {
 
       const res = await axios.get(
-        "https://client-project-9ofp.onrender.com/api/profiles"
+        "https://client-project-1d2g.vercel.app/api/profiles"
       );
 
       setProfiles(res.data);
