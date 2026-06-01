@@ -25,7 +25,7 @@ function Admin() {
     try {
 
       const res = await axios.get(
-        "https://client-project-9ofp.onrender.com/api/profiles"
+        "https://client-project-lovat.vercel.app/api/profiles"
       );
 
       setProfiles(res.data);
