@@ -25,7 +25,7 @@ function Admin() {
     try {
 
       const res = await axios.get(
-        "https://client-project-lovat.vercel.app/api/profiles"
+        "https://client-project-1d2g.vercel.app/api/profiles"
       );
 
       setProfiles(res.data);
