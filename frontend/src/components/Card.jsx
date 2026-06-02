@@ -1,14 +1,17 @@
 import React, { useState } from "react";
 
-import BookingModal
-from "./BookingModal";
+
 
 export default function Card({
   item,
 }) {
 
-  const [open, setOpen] =
-    useState(false);
+
+
+    const message = encodeURIComponent(
+  "I am interested in using your services"
+);
+
 
   return (
     <>
@@ -87,29 +90,9 @@ export default function Card({
             "
           >
 
-            <button
-              onClick={() =>
-                setOpen(true)
-              }
-
-              className="
-              flex-1
-              bg-pink-600
-              hover:bg-pink-700
-              active:scale-95
-              transition-all
-              duration-300
-              py-3
-              rounded-xl
-              text-white
-              font-semibold
-              "
-            >
-              Book Now
-            </button>
 
             <a
-              href="https://wa.me/9162259157"
+              href={`https://wa.me/9508387087?text=${message}`}
 
               target="_blank"
 
@@ -130,16 +113,32 @@ export default function Card({
               WhatsApp
             </a>
 
+             <a
+    href="tel:9508387087"
+    className="
+    flex-1
+    bg-blue-600
+    hover:bg-blue-700
+    active:scale-95
+    transition-all
+    duration-300
+    py-3
+    rounded-xl
+    text-white
+    text-center
+    font-semibold
+    "
+  >
+    Call Now
+  </a>
+
           </div>
 
         </div>
 
       </div>
 
-      <BookingModal
-        open={open}
-        setOpen={setOpen}
-      />
+     
 
     </>
   );

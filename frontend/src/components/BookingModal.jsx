@@ -24,7 +24,7 @@ function BookingModal({
       try {
 
         await axios.post(
-          "https://client-project-9ofp.onrender.com/api/bookings",
+          "https://client-project-1d2g.vercel.app/api/bookings",
 
           {
             ...formData,
