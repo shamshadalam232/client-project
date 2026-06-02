@@ -92,7 +92,7 @@ export default function Card({
 
 
             <a
-              href={`https://wa.me/9508387087?text=${message}`}
+              href={`https://wa.me/919508387087?text=${message}`}
 
               target="_blank"
 
