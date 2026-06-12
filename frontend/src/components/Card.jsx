@@ -92,7 +92,7 @@ export default function Card({
 
 
             <a
-              href={`https://wa.me/919508387087?text=${message}`}
+              href={`https://wa.me/918454917092?text=${message}`}
 
               target="_blank"
 
@@ -114,7 +114,7 @@ export default function Card({
             </a>
 
              <a
-    href="tel:9508387087"
+    href="tel:7092528170"
     className="
     flex-1
     bg-blue-600
