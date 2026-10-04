@@ -5,10 +5,14 @@ import Login from "./pages/Login";
 import Admin from "./pages/Admin";
 
 import ProtectedRoute from "./components/ProtectedRoute";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
+  <>
+    <Navbar />
     <Routes>
+      
       <Route path="/" element={<Home />} />
 
       <Route path="/login" element={<Login />} />
@@ -22,6 +26,7 @@ function App() {
         }
       />
     </Routes>
+    </>
   );
 }
 

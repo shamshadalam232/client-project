@@ -6,6 +6,7 @@ import FastMarquee from "react-fast-marquee";
 import Card from "../components/Card";
 import Footer from "../components/Footer";
 
+
 function Home() {
 
   const [profiles, setProfiles] = useState([]);
@@ -82,6 +83,7 @@ function Home() {
     whitespace-nowrap
     text-white
     font-semibold
+    text-2xl
     tracking-widest
     animate-marquee
     "
@@ -95,6 +97,8 @@ function Home() {
   Premium Wellness •
 
   </div>
+
+  
 
 </div>
 
@@ -126,8 +130,7 @@ function Home() {
             font-black
             "
           >
-            Mumbai’s Premium
-  Massage Services
+            Powered by shivi ads agency
           </h1>
 
           <p

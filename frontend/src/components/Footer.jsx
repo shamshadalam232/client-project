@@ -52,23 +52,26 @@ export default function Footer() {
 
       <div className="flex gap-4 mt-6">
 
-        <div
-          className="
-          w-10
-          h-10
-          rounded-full
-          bg-zinc-800
-          flex
-          items-center
-          justify-center
-          text-white
-          hover:bg-pink-600
-          duration-300
-          cursor-pointer
-          "
-        >
-          F
-        </div>
+        <a
+  href="https://www.facebook.com/profile.php?id=61594468975561"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="
+    w-10
+    h-10
+    rounded-full
+    bg-zinc-800
+    flex
+    items-center
+    justify-center
+    text-white
+    hover:bg-pink-600
+    duration-300
+    cursor-pointer
+  "
+>
+  F
+</a>
 
         <div
           className="
@@ -267,7 +270,7 @@ export default function Footer() {
         </p>
 
         <p>
-          📞 +91 9162259157
+          📞 +91 9905244570
         </p>
 
 
@@ -312,7 +315,7 @@ export default function Footer() {
         text-center
         "
       >
-        © 2026 Premium Companions.
+        © 2026 Powered by Shivi ads agency.
         All Rights Reserved.
       </p>
 
