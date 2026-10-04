@@ -329,7 +329,7 @@ export default function Footer() {
       >
 
         <a
-          href="/"
+          href="/privacy-policy"
 
           className="
           hover:text-pink-500

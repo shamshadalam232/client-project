@@ -91,31 +91,26 @@ export default function Card({
           >
 
 
-            <a
-<<<<<<< HEAD
-              href={`https://wa.me/918454917092?text=${message}`}
-=======
-              href={`https://wa.me/9905244570?text=${message}`}
->>>>>>> 2dd4926 (some new feature)
-
-              target="_blank"
-
-              className="
-              flex-1
-              bg-green-600
-              hover:bg-green-700
-              active:scale-95
-              transition-all
-              duration-300
-              py-3
-              rounded-xl
-              text-white
-              text-center
-              font-semibold
-              "
-            >
-              WhatsApp
-            </a>
+           <a
+  href={`https://wa.me/9905244570?text=${message}`}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="
+    flex-1
+    bg-green-600
+    hover:bg-green-700
+    active:scale-95
+    transition-all
+    duration-300
+    py-3
+    rounded-xl
+    text-white
+    text-center
+    font-semibold
+  "
+>
+  WhatsApp
+</a>
 
              <a
     href="tel:7092528170"

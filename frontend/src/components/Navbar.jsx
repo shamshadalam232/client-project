@@ -2,13 +2,17 @@ import React, { useState } from "react";
 import { Menu, X, Home, Sparkles, Users, Phone, ShieldCheck } from "lucide-react";
 import image from "../assets/image.png";
 
+
 export default function Navbar() {
+  
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-black/95 backdrop-blur-md border-b border-white/10">
 
+    <header className="sticky top-0 z-50 bg-black/95 backdrop-blur-md border-b border-white/10">
+    
       {/* Main Navbar */}
+
       <nav className="max-w-7xl mx-auto h-[72px] px-4 sm:px-6 flex items-center justify-between">
 
         {/* Logo */}
@@ -21,6 +25,7 @@ export default function Navbar() {
         </div>
 
         {/* Desktop Navigation */}
+
         <div className="hidden md:flex items-center gap-7 lg:gap-9">
 
           <a
@@ -187,8 +192,6 @@ export default function Navbar() {
             <Phone size={19} />
             Contact
           </a>
-
-          
 
         </div>
       </div>
